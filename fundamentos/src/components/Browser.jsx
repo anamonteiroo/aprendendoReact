@@ -5,7 +5,7 @@ export default function Browser(props) {
     return (
         <Link href={props.destin}>
             <div className={styles.browser} style={{
-                backgroundColor: props.color ?? 'dodgerblue'
+                backgroundColor: props.color
             }}>
                 {props.text}
             </div> 
